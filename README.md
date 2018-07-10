@@ -5,13 +5,13 @@ It fetches [dbei.gov.ie](https://dbei.gov.ie/en/What-We-Do/Workplace-and-Skills/
 How to create a bot.
 > https://core.telegram.org/bots
 
-How to use api to discover token and chat id.
+How to use api to discover bot token and user chat id.
 > https://core.telegram.org/bots/api
 
 
 Change the folowing vars on app.py
 ```
-token='YOUR TOKEN'
+token='YOUR BOT TOKEN'
 telegram_chat_id = ['xxxxxxxxx', 'xxxxxxxxx']
 ```
 
