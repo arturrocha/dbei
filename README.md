@@ -11,7 +11,7 @@ How to use api to discover bot token and user chat id.
 
 Change the folowing vars on app.py
 ```
-token='YOUR BOT TOKEN'
+bot_token = 'YOUR BOT TOKEN'
 telegram_chat_id = ['xxxxxxxxx', 'xxxxxxxxx']
 ```
 
