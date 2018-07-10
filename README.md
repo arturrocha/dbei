@@ -1,7 +1,6 @@
-# dbei
-###### Get DBEI work permit processing date on Telegram
+# Get DBEI work permit processing date on Telegram
 
-It fetches https://dbei.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Current-Application-Processing-Dates and sends the date for Standard processing as a Bot to a telegram user.
+It fetches [dbei.gov.ie](https://dbei.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Current-Application-Processing-Dates) and sends Standard processing date as a Bot to a list of telegram users.
 
 How to create a bot.
 > https://core.telegram.org/bots
