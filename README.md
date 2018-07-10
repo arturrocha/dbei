@@ -13,3 +13,7 @@ https://core.telegram.org/bots/api
 Change the folowing vars on app.py
 token='YOUR TOKEN'
 telegram_chat_id = ['xxxxxxxxx', 'xxxxxxxxx']
+
+Run at minute 0 past every 8th hour on linux.
+root@raspberrypi:~# cat /etc/cron.d/dbei
+0 */8 * * * root /usr/bin/python3 /root/dbei.py
