@@ -1,19 +1,23 @@
 # dbei
-Get DBEI work permit processing date on Telegram
+###### Get DBEI work permit processing date on Telegram
 
 It fetches https://dbei.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Current-Application-Processing-Dates and sends the date for Standard processing as a Bot to a telegram user.
 
 How to create a bot.
-https://core.telegram.org/bots
+> https://core.telegram.org/bots
 
 How to use api to discover token and chat id.
-https://core.telegram.org/bots/api
+> https://core.telegram.org/bots/api
 
 
 Change the folowing vars on app.py
+```
 token='YOUR TOKEN'
 telegram_chat_id = ['xxxxxxxxx', 'xxxxxxxxx']
+```
 
 Run at minute 0 past every 8th hour on linux.
+```
 root@raspberrypi:~# cat /etc/cron.d/dbei
 0 */8 * * * root /usr/bin/python3 /root/dbei.py
+```
