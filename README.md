@@ -9,6 +9,9 @@ How to use api to discover bot token and user chat id.
 > https://core.telegram.org/bots/api
 
 
+Install "python-telegram-bot"
+import telegram
+
 Change the folowing vars on app.py
 ```
 bot_token = 'YOUR BOT TOKEN'
